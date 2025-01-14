@@ -1,0 +1,158 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #eee;
+    /* position: fixed; */
+    padding-bottom: 10px;
+   
+}
+
+body {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+
+#zero-img{
+    display: flex;
+    width: 130px;
+    height: 20px;    
+}
+
+.left-nav{
+    margin-left: 220px;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    
+}
+
+.right-nav{
+    display: flex;
+    padding-right: 5px 10px 0 450px;
+    margin-right: 80px;
+
+}
+
+p{
+    padding-right: 55px;
+    margin-top: 10px;
+    unicode-bidi: isolate;
+    
+    
+}
+
+.right-nav p:hover{
+    color: blue;
+}
+
+.hero-img{
+    display: inline;
+    margin-left: 370px ;
+    height: 770px;
+    width: 300px;
+}
+
+#hero-img{
+    height: 300px;
+    width: 770px;
+    margin-top: 70px;
+    
+    
+}
+
+.content{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.heading {
+    color: #424242;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 2.75rem;
+    line-height: 1.25rem;
+  }
+
+ .subheading{
+    color: #424242;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+ } 
+
+
+
+ .button{
+    display: flex;
+    justify-content: center;
+ }
+
+ #btn{
+    
+    display: inline;
+    padding: 10px 25px ;
+    border-radius: 5px solid #387Ed1;
+    background-color: #387ED1;
+    margin: 20px 0 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+ }
+
+  #btn:hover{
+    background-color:  #555;
+ }
+
+ .information{
+    display: flex;
+    margin: 130px 0 0;
+    
+ }
+
+ .info{
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 220px;
+
+    
+ }
+
+ .first h1{
+    color: #424242;
+    padding-bottom: 30px;
+    
+    
+ }
+ .first h3{
+    color: #424242;
+ }
+
+ .first p{
+    color: #666666;
+    padding-bottom: 20px;
+ }
+ 
+ .second{
+    
+ }
+
+ .third{
+    
+ }
+
+ .fourth{
+    
+ }
+
+
+ #last-img{
+    
+    width: 600px;
+    height: 580px;
+    margin-right: 150px;
+    
+ }
